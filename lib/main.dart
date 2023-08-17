@@ -144,11 +144,13 @@ class _SignUpFormState extends State<SignUpForm> {
 }
 
 class AnimatedProgressIndicator extends StatefulWidget {
-  final double value;
-
   const AnimatedProgressIndicator({
     required this.value,
   });
+
+  final double value;
+
+
 
   @override
   State<AnimatedProgressIndicator> createState() {
@@ -166,7 +168,7 @@ class _AnimatedProgressIndicatorState extends State<AnimatedProgressIndicator>
   void initState() {
     super.initState();
     _controller = AnimationController(
-        duration: Duration(milliseconds: 1200), vsync: this);
+        duration: const Duration(milliseconds: 1200), vsync: this);
 
     final colorTween = TweenSequence([
       TweenSequenceItem(

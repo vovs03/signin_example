@@ -1,7 +1,7 @@
 # 🐝 Development
 
 - `flutter run`
-- `dart analyze` - Запуск линтера (linter) `[0.4.0]` Practice 6
+- `dart analyze` - Запуск линтера (linter) `[0.4.0]` **Practice 6**
 
 ## Практика
 
